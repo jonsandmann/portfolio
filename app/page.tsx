@@ -47,7 +47,7 @@ export default function Home() {
           Jonathan Sandmann
         </h1>
         <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed max-w-3xl mb-10">
-          Data analyst with a passion for design. I build tools that excel from both UX and UI perspectives—beautiful, efficient, and intuitive solutions that make complex data accessible.
+          Analytics Engineer and Technical Founder. I build data platforms and visualization tools that transform how companies understand their business. From pipelines to pixels, I create complete data solutions.
         </p>
         <div className="mb-12">
           <Image
@@ -101,16 +101,22 @@ export default function Home() {
         <h2 className="text-2xl font-bold mb-10">About Me</h2>
         <div className="space-y-6 max-w-3xl">
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-            I started as a financial analyst and transitioned into data analytics early in Power BI's lifecycle. I've been working with it for over a decade now.
+            I'm an analytics engineer with 10 years of experience building data solutions for Fortune 500 companies.
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-            I worked at Microsoft building reports and data warehouses for their retail team. I learned that good data means nothing if it's hard to understand. So I focused on making things that worked fast and looked good.
+            I've worked across the entire data stack - from building production data warehouses at Microsoft to founding my own SaaS platform that serves 1,000+ users.
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-            I left to start my own consultancy. Built a small team. Helped dozens of companies make sense of their data. I kept noticing the same issue: Power BI reports didn't have to look bad, but they usually did.
+            At Microsoft, I led data initiatives across retail, learning, and support divisions, building systems that optimized operations for hundreds of employees. But I noticed a pattern: even the best data meant nothing if people couldn't understand it.
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-            So in 2023, I built Power UI. Turns out there was real demand for better-looking Power BI reports. Now it's one of the most popular theme generators out there. Sometimes the simple solutions are the best ones.
+            So I started solving that problem. First through consulting, where I built a team that helped dozens of companies modernize their analytics. Then by creating Power UI - a platform that makes data visualization accessible to everyone.
+          </p>
+          <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+            In 2025, I won the Microsoft Fabric Data Visualization Championship in Las Vegas. I've also grown a following of 47,000+ on TikTok by sharing what I've learned about data and design.
+          </p>
+          <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+            I believe good analytics isn't just about the numbers - it's about building systems that people actually want to use.
           </p>
         </div>
       </section>
