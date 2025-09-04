@@ -82,13 +82,6 @@ export default function Home() {
           <ProjectCard
             href="https://www.powerui.com"
             external
-            title="Power UI Figma Design System"
-            description="Comprehensive Figma design system for creating beautiful Power BI reports with consistent styling"
-            image="/design-system-thumbnail.png"
-          />
-          <ProjectCard
-            href="https://www.powerui.com"
-            external
             title="Dashboard Design in Power BI"
             description="Complete guide to designing effective and visually appealing dashboards in Power BI"
             image="/ebook-thumbnail.png"
@@ -133,6 +126,45 @@ export default function Home() {
         >
           jonsandmann@protonmail.com
         </a>
+      </section>
+
+      {/* Analytics Dashboards Section */}
+      <section className="w-full mt-20">
+        <h2 className="text-2xl font-bold mb-6">Analytics Dashboards</h2>
+        <p className="text-lg text-gray-600 dark:text-gray-300 mb-10">
+          Here are some portfolio shots of dashboards I've created
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <Image src="/shots/Dribbble shot HD - 1.png" alt="Analytics Dashboard 1" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 2.png" alt="Analytics Dashboard 2" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 3.png" alt="Analytics Dashboard 3" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 4.png" alt="Analytics Dashboard 4" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 5.png" alt="Analytics Dashboard 5" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 6.png" alt="Analytics Dashboard 6" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 7.png" alt="Analytics Dashboard 7" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 8.png" alt="Analytics Dashboard 8" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 9.png" alt="Analytics Dashboard 9" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 10.png" alt="Analytics Dashboard 10" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 10-1.png" alt="Analytics Dashboard 10-1" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 11.png" alt="Analytics Dashboard 11" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 12.png" alt="Analytics Dashboard 12" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 12-1.png" alt="Analytics Dashboard 12-1" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 13.png" alt="Analytics Dashboard 13" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 14.png" alt="Analytics Dashboard 14" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 15.png" alt="Analytics Dashboard 15" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 16.png" alt="Analytics Dashboard 16" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 18.png" alt="Analytics Dashboard 18" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 19.png" alt="Analytics Dashboard 19" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 20.png" alt="Analytics Dashboard 20" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 21.png" alt="Analytics Dashboard 21" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 22.png" alt="Analytics Dashboard 22" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 23.png" alt="Analytics Dashboard 23" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 24.png" alt="Analytics Dashboard 24" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 25.png" alt="Analytics Dashboard 25" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 26.png" alt="Analytics Dashboard 26" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Dribbble shot HD - 27.png" alt="Analytics Dashboard 27" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+          <Image src="/shots/Portfolio mockup 7 1.png" alt="Portfolio Mockup" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
+        </div>
       </section>
     </main>
   );
