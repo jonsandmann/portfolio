@@ -166,6 +166,13 @@ export default function Home() {
           <Image src="/shots/Portfolio mockup 7 1.png" alt="Portfolio Mockup" width={400} height={300} className="rounded-lg hover:scale-105 transition-transform cursor-pointer" />
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="w-full mt-20 pt-12 pb-8 border-t text-center">
+        <p className="text-sm text-gray-500 dark:text-gray-400">
+          This site was made with Next.js, Vercel and Claude Code in 1 hour
+        </p>
+      </footer>
     </main>
   );
 }
