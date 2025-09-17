@@ -80,11 +80,11 @@ export default function Home() {
             image="/power-ui-image.png"
           />
           <ProjectCard
-            href="https://www.powerui.com"
+            href="https://timelyfly.com"
             external
-            title="Dashboard Design in Power BI"
-            description="Complete guide to designing effective and visually appealing dashboards in Power BI"
-            image="/ebook-thumbnail.png"
+            title="TimelyFly"
+            description="Simple beautiful timeline creator to capture, organize and share your most meaningful moments"
+            image="/timelyfly.png"
           />
         </div>
       </section>
